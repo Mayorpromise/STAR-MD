@@ -1,14 +1,14 @@
 {
-  "name": "STAR-MD",
-  "description": "A Whatsapp md bot built by Excel to make experience better",
-  "logo": "https://i.imgur.com/D0ZPh8f.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "STAR", "STAR Bot", "STAR","STAR-MD","themes bot","multi device","baileys","Excel"],
+  "name": "INFINITE-MD",
+  "description": "Hi there, I AM INFINITE-MD BOT 🤖  Whatsapp multifunctional bot built in NodeJs by MAYOR to make experience better.\n\t Incase of Any Problem Whatsapp me on: +2349164717432",
+  "logo": "https://telegra.ph/file/f2e7065092426e111c757.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "INFINITE", "INFINITE Bot", "INFINITE","INFINIT-MD","themes bot","multi device","baileys","Mayor"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "BOT OWNER NAME", 
-      "value": "Excel"
+      "value": "𝐌𝐀𝐘𝐎𝐑 𝐏𝐑𝐎𝐌𝐈𝐒𝐄"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -21,7 +21,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
     "required" :false,
-    "value": "false"
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -33,7 +33,7 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://i.imgur.com/D0ZPh8f.jpg"
+     "value": "https://telegra.ph/file/b49106fa8f7b3f24eea3d.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -66,11 +66,11 @@
     },
       "PREFIX": {
   "description": "Enter your desired prefix for bot.",
-      "value": "*"
+      "value": "."
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "2347045035241"
+       "value": "2349164717432"
  },          
    "SESSION_ID": {
     "description": " PUT YOURE SESSION ID HERE.",
@@ -79,20 +79,20 @@
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
-       "value": "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",
+       "value": "sk-UhEtpackT8PRUpzerV31T3B1bkFJc6e18JsDOFb5rHTjufB6",
        "required" :false
   },
   "MONGODB_URI": {
     "description": "A secret String for Mongodb Connection.(Required),change for better experience",
-    "value": "mongodb+srv://Maher:Zubair@sigma-male.ggwx4gc.mongodb.net/?retryWrites=true&w=majority"
+    "value": "mongodb+srv://xIKRATOSx:xIKRATOSx@ikratosofc.g1ueru5.mongodb.net/?retryWrites=true&w=majority"
   },
     "THEME": {
     "description": "Put the theme name you want to use. Avilable themes are GOJO,STAR,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "STAR"
+     "value": "INFINITE"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
-         "value": "public"
+         "value": "private"
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
@@ -101,11 +101,11 @@
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHER NAME",
-    "value": "EXCEL"
+    "value": "𝐌𝐀𝐘𝐎𝐑 𝐏𝐑𝐎𝐌𝐈𝐒𝐄"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "STAR-MD"
+    "value": "𝙸𝙽𝙵𝙸𝙽𝙸𝚃𝙴-𝙼𝙳"
   },
   "heroku": {
     "description": "Weather it is on heroku or not", 
